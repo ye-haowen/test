@@ -1,7 +1,7 @@
 (() => {
   var pageData = {
     isScroll: false,
-    scrollTime: 5,
+    scrollTime: 30,
     scrollViewEl: document.querySelector(".scrollCtn"),
     scrollEl: document.getElementById("scroll"),
     btnEl: document.getElementById('btn'),
@@ -9,7 +9,7 @@
     speed: 1,
     timer: null,
     countDownEl: document.querySelector(".countDown"),
-    token: (window.location.search.split("token=")[1] || "").split("&")[0] || 'aiopnuxyexecom'
+    token: (window.location.search.split("token=")[1] || "").split("&")[0]
   }
   if (!pageData.token) {
     showPopup({ msg: "无效访问", closeWindow: true })
