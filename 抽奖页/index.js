@@ -1,3 +1,4 @@
+alret(666);
 (() => {
   let pageData = {
     isScroll: false,
