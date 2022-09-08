@@ -9,7 +9,7 @@
     speed: 1,
     timer: null,
     countDownEl: document.querySelector(".countDown"),
-    token: window.location?.search?.split("token=")[1]?.split("&")[0] || 'aiopnuxyexecom'
+    token: window.location?.search?.split("token=")[1]?.split("&")[0]
   }
   if (!pageData.token) {
     showPopup({ msg: "无效访问", closeWindow: true })
