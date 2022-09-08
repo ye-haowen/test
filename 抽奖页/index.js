@@ -1,7 +1,7 @@
 (() => {
   let pageData = {
     isScroll: false,
-    scrollTime: 5,
+    scrollTime: 30,
     scrollViewEl: document.querySelector(".scrollCtn"),
     scrollEl: document.getElementById("scroll"),
     btnEl: document.getElementById('btn'),
