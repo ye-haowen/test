@@ -1,4 +1,4 @@
-alret(666);
+alert(666);
 (() => {
   let pageData = {
     isScroll: false,
